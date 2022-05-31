@@ -47,7 +47,7 @@ namespace MoneyTracker_pokusaj_3
 
         private void MainForm_3cs_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dataSet1.MoneyTracker_table' table. You can move, or remove it, as needed.
+            //This line of code loads data into the 'dataSet1.MoneyTracker_table' table
             this.moneyTracker_tableTableAdapter.Fill(this.dataSet1.MoneyTracker_table);
 
         }
